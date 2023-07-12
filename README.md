@@ -1,16 +1,25 @@
+# Creando Servidores Web con node.js
+
+Creando un servidor con `http.createServer()` y retornando el arreglo de `tasks` como un objeto
+
+![server](/images/server.JPG)
+
 ## Task  List ##
 
-Aplicación creada con Node.js para crear y eliminar tareas utilizando el modulo "readline" para interactuar con el usuario
+Aplicación creada con Node.js para crear y eliminar tareas utilizando el modulo "readline" para interactuar con el usuario desde la consola!
 
-![menu-bienvenida](/images/menu-bienvenida.JPG)
+![menu-bienvenida](images/menu-bienvenida.JPG)
 
 ## Funcionalidades 
 
 1. Crear Tareas
+![agregar tarea](/images/addTask.JPG)
 2. Eliminar Tareas
+![eliminar tarea](/images/deleteTask.JPG)
 3. Completar Tareas
+![completar tarea](/images/completeTask.JPG)
 4. Ver Lista de Tareas
-
+![ver lista de tareas](/images/verTask.JPG)
 ## Requisitos 
 
 - Node.js instalado
@@ -27,7 +36,7 @@ cd task-list-node
 ```
 3. Instalar dependencias:
 ```
-npm install
+npm chalk
 ```
 chalk
 ```
