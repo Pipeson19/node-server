@@ -17,3 +17,32 @@ La aplicación "corre" en un servidor local y usa un servidor web proporcionado 
 2. Fácil Acceso: La ejecución en el servidor permite interactuar con la aplicación y con tus tareas desde cualquier dispositivo con acceso a internet. 
 3. Interfaz intuitiva de línea de comandos: Lo único que deberás hacer es seguir las instrucciones que vayas viendo en pantalla y así podrías ir interactuando con la aplicación.
 
+## Instalación
+
+1. Clonar este repositorio:
+``` 
+git clone <https://github.com/aarroyavez/node-server>
+``` 
+2. Acceder al directorio:
+```
+cd task-list-node
+```
+3. Instalar dependencias:
+```
+npm install nodemon
+```
+```
+const readline = require("readline")
+```
+```
+const http = requiere("http")
+```
+## Uso
+
+Para poder usar la app, usa el siguiente comando en la terminal:
+```
+node tasks.js
+```
+
+## Contribución
+Si encuentras algún error, tienes alguna sugerencia o deseas contribuir de alguna forma, siéntete libre de abrir un problema o enviar una solicitud de extracción.
